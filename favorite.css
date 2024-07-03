@@ -1,0 +1,62 @@
+body {
+    position: relative;
+    background-color: #6a98a9;
+    color: #8f2e14;
+    text-align: center;
+  }
+  body div h1{
+    border-radius: 100px;
+    font-size: 70px;
+  }
+    
+    h1{
+    
+    font-family: "finlay", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+  }
+  h2{
+    font-family: "finlay", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+  
+    nav ul li{
+      margin-right: 2rem;
+    }
+  
+    nav ul li a {
+        font-family: "finlay", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      color: #8f2e14;
+      font-size: 20px;
+      text-decoration: none;
+    }
+ 
+  .fade,
+  .fade2 {
+    width: 160px;
+    margin: 20px;
+  }
+  
+  .row {
+    position: relative;
+  }
+  
+  #move {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 100px);
+  }
+  .fade2:hover {
+    opacity: 1;
+  }

@@ -1,0 +1,88 @@
+@charset   "UTF-8";
+* {
+  margin: 0;
+  padding: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #6a98a9;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: #6a98a9;
+  padding: 20px;
+}
+ 
+header   {
+  padding: 40px;
+  color: #8f2e14;
+}
+ .sitetitle{
+    font-size: 100px;
+    text-align: center;
+ }
+
+ h1{
+    
+    font-family: "finlay", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+nav {
+  padding: 10px 40px;
+  background-color: #6a98a9;
+  color: #8f2e14;
+  border-radius: 20px;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+  nav ul li{
+    margin-right: 2rem;
+  }
+
+  nav ul li a {
+    font-family: "finlay", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    color: #8f2e14;
+    font-size: 20px;
+
+  }
+ 
+ 
+main{
+  padding: 40px;
+  height : 400px;
+  padding-top: 100px;
+}
+   main div p{
+    padding-top: 35px;
+    color: #8f2e14;
+   }
+   main div p.english{
+    padding-top: 5px;
+   }
+
+footer   {
+  padding: 40px;
+  height: 40px;
+  background-color : #6a98a9;
+  color: #8f2e14;
+}
+.circle img {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+.circle{
+    text-align: center;
+}
